@@ -1,10 +1,10 @@
 import './ListaSuspensa.css'
 
-const ListaSuspensa = (props) => {
-    props.itens
+const ListaSuspensa = () => {
+    
     return(
         <div>
-            <label>{props.label}</label>
+            <label></label>
             <select>
                 <option>???</option>
             </select>
