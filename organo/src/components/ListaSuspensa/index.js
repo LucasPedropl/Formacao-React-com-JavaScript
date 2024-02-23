@@ -1,12 +1,13 @@
 import './ListaSuspensa.css'
 
-const ListaSuspensa = () => {
+const ListaSuspensa = (props) => {
+    console.log(props.itens)
     
     return(
         <div>
-            <label></label>
+            <label>{props.label}</label>
             <select>
-                <option>???</option>
+                {}
             </select>
         </div>
     )
